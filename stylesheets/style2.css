@@ -1,0 +1,216 @@
+/* line 5, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Variables color */
+/* Variables of size and location */
+/* line 25, ../sass/_main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 28, ../sass/_main.scss */
+body {
+  font: normal 15px/20px Georgia, "Times New Roman", Times, serif;
+  background-color: #659a01;
+}
+
+/* line 32, ../sass/_main.scss */
+.content {
+  background: #666701;
+  width: 65%;
+  margin: 10px auto;
+  padding: 25px;
+}
+
+/* line 39, ../sass/_main.scss */
+.town-name__heading {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fbd010;
+  margin-bottom: 1em;
+}
+
+/* line 44, ../sass/_main.scss */
+.history__heading {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #fbd010;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+/* line 47, ../sass/_main.scss */
+.history__img-left {
+  float: left;
+  border: 2px solid #fff;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+/* line 51, ../sass/_main.scss */
+.history__paragraph {
+  margin-bottom: 1em;
+}
+
+/* line 56, ../sass/_main.scss */
+.education__heading {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #fbd010;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+/* line 59, ../sass/_main.scss */
+.education__brief {
+  float: none;
+  width: 100%;
+  padding: 20px;
+  margin: 0 20px 20px 0;
+  background-color: #677d01;
+}
+/* line 66, ../sass/_main.scss */
+.education__img-right {
+  float: right;
+  border: 2px solid #fff;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+/* line 70, ../sass/_main.scss */
+.education__paragraph {
+  margin-bottom: 1em;
+}
+
+/* line 75, ../sass/_main.scss */
+.culture__link {
+  margin-bottom: 0.8em;
+  display: block;
+  color: #fbd010;
+}
+/* line 80, ../sass/_main.scss */
+.culture__heading {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fbd010;
+  margin-bottom: 1em;
+}
+
+/* line 85, ../sass/_main.scss */
+.theaters__heading {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #fbd010;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+/* line 88, ../sass/_main.scss */
+.theaters__img-left {
+  float: left;
+  border: 2px solid #fff;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+/* line 92, ../sass/_main.scss */
+.theaters__paragraph {
+  margin-bottom: 1em;
+}
+
+/* line 96, ../sass/_main.scss */
+.theaters-table {
+  margin-top: 1.5em;
+  background-color: #677d01;
+  border-spacing: 0;
+}
+/* line 100, ../sass/_main.scss */
+.theaters-table__caption {
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: right;
+  margin: 0.8em;
+}
+/* line 108, ../sass/_main.scss */
+.theaters-table__cell {
+  padding: 10px 20px;
+  border-bottom: 1px solid #94a34e;
+}
+/* line 111, ../sass/_main.scss */
+.theaters-table__cell_bg {
+  background-color: #94a34e;
+  border-right: 0px solid #fff;
+  text-align: left;
+}
+/* line 117, ../sass/_main.scss */
+.theaters-table__link {
+  color: #fbd010;
+}
+
+/* line 122, ../sass/_main.scss */
+.library__heading {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #fbd010;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}

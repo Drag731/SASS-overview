@@ -1,0 +1,126 @@
+@mixin h1font {
+  font: {
+      size: 2em;
+      weight: bold;
+    }
+  color: $headerColor;
+  margin-bottom: 1em;
+}
+@mixin h2font {
+  font: {
+      size: 1.5em;
+      style: italic;
+    }
+  color: $headerColor;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+@mixin allimg($float) {
+  float: $float;
+  border: 2px solid $borderColor;
+  padding: $imagePadding;
+  margin-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font: $bodyFont;
+  background-color: $bodyBackgroundColor;
+}
+.content {
+  background: $contentColor;
+  width: $contentWidth;
+  margin: 10px auto;
+  padding: 25px;
+}
+.town-name {
+  &__heading {
+    @include h1font;
+  }
+}
+.history {
+  &__heading{
+    @include h2font;
+  }
+  &__img-left {
+    @include allimg($float: left);
+    margin-right: 20px;
+  }
+  &__paragraph {
+    margin-bottom: 1em;
+  }
+}
+.education {
+  &__heading {
+    @include h2font;
+  }
+  &__brief {
+    float: $briefFloat;
+    width: $briefwidth;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    background-color: $briefBackgroundColor;
+  }
+  &__img-right {
+    @include allimg($float: right);
+    margin-left: 20px;
+  }
+  &__paragraph {
+    margin-bottom: 1em;
+  }
+}
+.culture {
+  &__link {
+    margin-bottom: 0.8em;
+    display: block;
+    color: $linkColor;
+  }
+  &__heading {
+    @include h1font;
+  }
+}
+.theaters {
+  &__heading {
+    @include h2font;
+  }
+  &__img-left {
+    @include allimg($float: left);
+    margin-right: 20px;
+  }
+  &__paragraph {
+    margin-bottom: 1em;
+  }
+}
+.theaters-table {
+  margin-top: 1.5em;
+  background-color: $tableBackground;
+  border-spacing: 0;
+  &__caption {
+    font: {
+      size: 1.2em;
+      style: italic;
+    }
+    text-align: right;
+    margin: 0.8em;
+  }
+  &__cell {
+    padding: 10px 20px;
+    border-bottom: 1px solid $tableBorderBottomColor;
+    &_bg {
+      background-color: $tableThBackground;
+      border-right: $widthThBorderRight solid #fff;
+      text-align: left;
+    }
+  }
+  &__link {
+    color: $linkColor;
+  }
+}
+.library {
+  &__heading {
+    @include h2font;
+  }
+}
+
